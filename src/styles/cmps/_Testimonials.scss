@@ -1,0 +1,57 @@
+.testimonials {
+  background-color: $darker-bgc;
+  position: relative;
+  padding-bottom: 360px;
+  .testimony {
+    .quotes {
+      position: absolute;
+      top: -37px;
+      left: -7px;
+    }
+    .dummy-div {
+      position: absolute;
+      padding: 25px;
+      right: 0;
+      top: 0;
+      border-radius: 4px;
+      background-color: #202a3c;
+      font-family: open-sans;
+    }
+    position: relative;
+    padding: 25px;
+    width: 360px;
+    margin-right: 40px;
+    box-shadow: 5px 5px 8px 4px rgba(56, 56, 56, 0.1);
+    border-radius: 4px;
+    background-color: #202a3c;
+    font-family: open-sans;
+    z-index: 1;
+    .main-txt {
+      margin-top: 20px;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+      line-height: 21px;
+      margin-bottom: 25px;
+    }
+    .person-profile {
+      img {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        margin-right: 7px;
+      }
+      .name {
+        font-family: open-sans-bold;
+        font-size: 10px;
+        letter-spacing: 0.5px;
+        line-height: 12px;
+        margin-bottom: 5px;
+      }
+      .role {
+        font-size: 7px;
+        letter-spacing: 0.5px;
+        line-height: 10px;
+      }
+    }
+  }
+}

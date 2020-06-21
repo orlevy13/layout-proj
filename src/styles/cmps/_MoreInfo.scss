@@ -1,0 +1,36 @@
+.more-info {
+  background-color: $darker-bgc;
+  padding-bottom: 175px;
+  .img-cont {
+    width: 615px;
+    margin-right: 50px;
+  }
+  .main-txt {
+    font-family: raleway-bold;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 22px;
+  }
+  .secondary-txt {
+    max-width: 563px;
+    color: #ffffff;
+    font-family: open-sans;
+    line-height: 24px;
+    margin-bottom: 22px;
+    &.bottom {
+      margin-bottom: 30px;
+    }
+  }
+  .cta-link {
+    color: #62e0d9;
+    font-family: open-sans;
+    border-bottom: 1px solid #62e0d9;
+    height: 25px;
+    display: inline-block;
+    .icon {
+      margin-left: 5px;
+      position: relative;
+      top: 3px;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.main-footer {
+  background-color: #0b1524;
+  padding: 200px 70px 75px 70px;
+  .footer-content {
+    margin-top: 35px;
+    .address-cont {
+      margin-right: 75px;
+      .icon {
+        background-image: url('../imgs/icon-location.svg');
+        width: 13px;
+        height: 18px;
+        margin-right: 20px;
+      }
+      .address {
+        width: 339px;
+        height: 70px;
+        font-family: open-sans;
+        line-height: 24px;
+      }
+    }
+    .contact-details {
+      margin-right: 135px;
+      .phone-cont {
+        margin-bottom: 24px;
+        .icon {
+          background-image: url('../imgs/icon-phone.svg');
+          width: 18px;
+          height: 18px;
+          margin-right: 22px;
+        }
+      }
+      .email-cont {
+        .icon {
+          background-image: url('../imgs/icon-email.svg');
+          width: 18px;
+          height: 18px;
+          margin-right: 22px;
+        }
+      }
+    }
+    .footer-nav {
+      li {
+        margin-bottom: 22px;
+      }
+      margin-right: 75px;
+      &.main {
+        margin-right: 105px;
+      }
+    }
+    .social-links {
+      div {
+        border-radius: 50%;
+        border: 1px solid #fff;
+        display: inline-block;
+        height: 32px;
+        width: 32px;
+        margin-right: 12px;
+      }
+      .fb-link span {
+        position: relative;
+        top: 7px;
+        right: -11px;
+      }
+      .twitter-link span {
+        position: relative;
+        top: 7px;
+        right: -8px;
+      }
+      .insta-link span {
+        position: relative;
+        top: 7px;
+        right: -7px;
+      }
+    }
+  }
+}
